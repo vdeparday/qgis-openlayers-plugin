@@ -129,6 +129,7 @@ class OpenlayersPlugin:
     self.olLayerTypeRegistry.add( OlLayerType(self, 'OpenCycleMap', 'osm_icon.png', 'ocm.html', True) )
     self.olLayerTypeRegistry.add( OlLayerType(self, 'OCM Landscape', 'osm_icon.png', 'ocm_landscape.html', True) )
     self.olLayerTypeRegistry.add( OlLayerType(self, 'OCM Public Transport', 'osm_icon.png', 'ocm_transport.html', True) )
+    self.olLayerTypeRegistry.add( OlLayerType(self, 'OSM - Humanitarian Data Model', 'osm_icon.png', 'osm_hdm.html', True) )
     self.olLayerTypeRegistry.add( OlLayerType(self, 'Yahoo Street', 'yahoo_icon.png', 'yahoo_street.html') )
     self.olLayerTypeRegistry.add( OlLayerType(self, 'Yahoo Hybrid', 'yahoo_icon.png', 'yahoo_hybrid.html') )
     self.olLayerTypeRegistry.add( OlLayerType(self, 'Yahoo Satellite', 'yahoo_icon.png',  'yahoo_satellite.html') )
